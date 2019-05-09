@@ -59,7 +59,7 @@ public class Dotterbolag {
 		}
 		return null;
 	}
-	public double totalSalary(double salary) {
+	public double totalSalary() {
 		double totalSalary = 0;
 		for(Anstalld tmpAnstalld : anstalldList) {
 			totalSalary += tmpAnstalld.getSalary();
